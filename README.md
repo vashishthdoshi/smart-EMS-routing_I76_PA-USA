@@ -1,4 +1,3 @@
-```markdown
 # EMS Vehicle Staging Location Optimization on I-76 in Pennsylvania
 
 This project employs a comprehensive machine learning and optimization framework to determine optimal Emergency Medical Services (EMS) vehicle staging locations along the I-76 corridor in Pennsylvania. The methodology integrates predictive modeling of traffic accident patterns with Mixed-Integer Linear Programming (MILP) to minimize emergency response times to anticipated crash hotspots.
@@ -346,45 +345,6 @@ For each optimization model, the following information is generated:
 - Lag features utilize segment-specific imputation strategies to handle missing historical data for newer or low-activity segments.
 - The optimization framework accommodates multiple objective functions and constraints to address varying operational priorities and resource availability scenarios.
 
----
-
-## Troubleshooting
-
-### Common Issues
-
-**Issue**: `ModuleNotFoundError` when running scripts
-- **Solution**: Ensure all dependencies are installed: `pip install -r requirements.txt`
-
-**Issue**: `FileNotFoundError` for data files
-- **Solution**: Verify data files are in correct directories as specified in Project Structure
-
-**Issue**: Memory errors during model training
-- **Solution**: Reduce `n_estimators` parameter in `prediction_model.py` or use a machine with more RAM
-
-**Issue**: Jupyter notebook kernel crashes during optimization
-- **Solution**: Restart kernel and run cells individually rather than "Run All"
-
----
-
-## License
-
-[Specify your license here]
-
----
-
 ## Citation
 
 When utilizing this methodology or framework, please acknowledge the integrated machine learning and optimization approach for emergency services resource allocation along highway corridors.
-
----
-
-## Contact
-
-[Your contact information or contribution guidelines]
-
----
-
-## Acknowledgments
-
-[Acknowledge data sources, collaborators, or funding sources if applicable]
-```
